@@ -1,0 +1,14 @@
+/* link - 아직 클릭하지 않은 경우 red 색상 설정 */
+a:link { color: white; text-decoration: none;}	
+/* visited - 한번 클릭하거나 전에 클릭한적 있을 경우 #c71d44 설정 */
+a:visited { color: white; text-decoration: none;}	
+/* hover - 마우스를 해당 링크에 위치했을 경우 #006DD7 설정 */
+a:hover { color: white; text-decoration: none;}
+body {background-color: black; color: white; font-family: 'dgm';}
+@font-face {
+    font-family: 'dgm'; /*font 이름*/
+    font-style: 'normal'; /* font 스타일 정의 (기울임, 일반) */
+    font-weight: 400; /* font 굵기 정의 */
+    /* 브라우저&디바이스 환경에 따른 font 파일 위치 정의 */
+    src: url('neodgm.woff');
+}
