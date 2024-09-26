@@ -4,7 +4,7 @@ a:link { color: white; text-decoration: none;}
 a:visited { color: white; text-decoration: none;}	
 /* hover - 마우스를 해당 링크에 위치했을 경우 #006DD7 설정 */
 a:hover { color: white; text-decoration: none;}
-body {background-color: black; color: white; font-family: 'dgm'; line-height: 150 %;}
+body {background-color: black; color: white; font-family: 'dgm'; line-height: 150%;}
 @font-face {
     font-family: 'dgm'; /*font 이름*/
     font-style: 'normal'; /* font 스타일 정의 (기울임, 일반) */
